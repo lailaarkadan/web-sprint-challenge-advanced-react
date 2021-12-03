@@ -118,8 +118,20 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a stateful and a functional component?
 
+stateful components are keeping track of changing data. While functional components print out what is given to them via props, or they always render the same thing.
+
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
 
+componenetWillMount is called before render while
+componentWillUpdate is called after the intial render. that happend after the client receives the data from the server.
+
+
 3. Define stateful logic.
+  
+Stateful logic is any code that uses the state.
+
+
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+
+Arrange, Act, Assert 
